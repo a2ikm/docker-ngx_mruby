@@ -8,3 +8,4 @@ MAINTAINER matsumotory
 # ONBUILD ADD docker/conf /usr/local/nginx/conf
 # ONBUILD ADD docker/conf/nginx.conf /usr/local/nginx/conf/nginx.conf
 
+CMD ["/usr/local/nginx/sbin/nginx -g 'daemon off;'"]
